@@ -15,9 +15,9 @@ you maybe change the code to adapt your specific need
 
 replace Main#extract method body to adapt your specific need:
 ```java
-// "/Users/liture" must be replace to your "user home"
+// "/Users/liture" must be replaced to your "user home"
 jar = jar.replace("$USER_HOME$", "/Users/liture");
 
-// "/Users/liture/.m2/repository" must be replace to your "maven home"
+// "/Users/liture/.m2/repository" must be replaced to your "maven home"
 jar = jar.replace("$MAVEN_REPOSITORY$", "/Users/liture/.m2/repository");
 ```
